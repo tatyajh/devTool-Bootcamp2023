@@ -8,7 +8,7 @@ const drawX = (tamano) => {
           linea += '  ';
         }
       }
-      console.log(linea);
+      return(linea);
     }
   }
   
