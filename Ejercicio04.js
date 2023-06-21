@@ -2,16 +2,16 @@ function fizzBuzz(n) {
     for (let i = 1; i <= n; i++) {
       switch (true) {
         case i % 3 === 0 && i % 5 === 0:
-          console.log("FizzBuzz");
+          return ("FizzBuzz");
           break;
         case i % 3 === 0:
-          console.log("Fizz");
+          return ("Fizz");
           break;
         case i % 5 === 0:
-          console.log("Buzz");
+          return ("Buzz");
           break;
         default:
-          console.log(i);
+          return (i);
           break;
       }
     }
